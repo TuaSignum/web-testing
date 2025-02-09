@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Testing Page</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="div-paragraph">
+            <h1>Paragraph - Header "h1"</h1>
+            <p>Template of the default web page paragraph.</p>
+        </div>
+        
+        <div class="div-lists">
+            <h2>Ordered and Unordered list - Header "h2"</h2>
+            <p>Ordered list of numbered items and unordered one with links to each one:</p>
+            <ol>
+                <li>Google</li>
+                <li>ChatGPT</li>
+                <li>Prom</li>
+            </ol>
+            <ul>
+                <li>
+                    <a href="https://www.google.com/" target="_blank">Link 1</a>
+                </li>
+                <li>
+                    <a href="https://chatgpt.com/" target="_blank">Link 2</a>
+                </li>
+                <li>
+                    <a href="https://prom.ua/" target="_blank">Link 3</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="div-image">
+            <h3>Image - Header "h3"</h3>
+            <p>Photo of Billy Herrington - the shiny sun of nowadays.</p>
+            <p>This block also uses paddings.</p>
+            <img src="img/gachi.jpg" alt="Photo of the happy Billy Herrington">
+        </div>
+
+        <div class="div-ui">
+            <h4>Forms and UI - Header "h4"</h4>
+            <p>Examples of labeled input fields by different types:</p>
+            
+            <form>
+                <h4>Personal:</h4>
+                <label for="callsign">Callsign:</label>
+                <input id="callsign" placeholder="Enter your callsign..." type="text">
+                <br><br>
+
+                <label for="sex">Sex:</label>
+                <label for="male">Male</label>
+                <input name="sex" id="male" type="radio">
+                <label for="female">Female</label>
+                <input name="sex" id="female" type="radio">
+                <br><br>
+
+                <label for="birthday">Birth date:</label>
+                <input id="birthday" type="date">
+                <br><br>
+
+                <label for="pic">Picture:</label>
+                <input id="pic" type="file">
+
+                <h4>Experience:</h4>
+                <label for="licenses">Driver licenses:</label>
+                <label for="license-a">A</label>
+                <input name="license-a" type="checkbox">
+                <label for="license-b">B</label>
+                <input name="license-b" type="checkbox">
+                <label for="license-c">C</label>
+                <input name="license-c" type="checkbox">
+                <label for="license-d">D</label>
+                <input name="license-d" type="checkbox">
+                <br><br>
+
+                <label for="weapon">Prefered weapon system:</label>
+                <select name="Weapon" id="weapon">
+                    <option value="ar">AR</option>
+                    <option value="ak">AK</option>
+                    <option value="scar">SCAR</option>
+                </select>
+                <br><br>
+
+                <label for="motivation">Motivation level:</label>
+                <input id="motivation" type="range">
+                <br><br>
+
+                <label for="about-xp">Experience in operations:</label>
+                <br><br>
+                <textarea id="about-xp" cols="60" rows="10"></textarea>
+
+                <h4>Contacts:</h4>
+                <label for="email">Email:</label>
+                <input id="email" placeholder="Enter your email..." type="email">
+                <br><br>
+                <label for="mob">Mobile:</label>
+                <input id="mob" placeholder="Signal linked number..." type="tel">
+                <br><br><br>
+
+                <button>Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
