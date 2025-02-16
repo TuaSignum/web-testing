@@ -22,7 +22,11 @@ div {padding: 20px; padding-left: 10px;}
     padding-left: 20px;
     border: 1px solid black;
     border-radius: 5px;
+    z-index: 3;
     transition: all 0.2s ease;
+}
+.div-lists li {
+    list-style-type: none;
 }
 .div-lists li:first-child a {
     color: rgb(0, 0, 0);
@@ -36,16 +40,21 @@ div {padding: 20px; padding-left: 10px;}
     color: rgb(0, 0, 0);
     background-color: rgb(244, 191, 0);
 }
-.div-lists li {list-style-type: none;}
 .div-lists ul a:hover {
-    scale: 1.1;
+    transform: scale(1.1);
 }
-.div-image {
+.div-images {
     color: white; 
     background-color: rgb(98, 98, 98);
 }
-.div-image img {
-    margin: 20px 42% 10px;
+.div-images .div-img-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div-images .div-img-block img {
+    margin: 20px;
+    /*block-size: 120px;*/
     outline: 5px dashed rgb(255, 204, 0);
     outline-offset: 5px;
     border: 2px solid rgb(255, 255, 255);
